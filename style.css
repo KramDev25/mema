@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar-container{
+width: 100%;
+padding: 20px 80px;
+position: fixed;
+background-color: rgb(0, 0, 0);
+z-index: 1;
+}
+
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.left-nav{
+width: 100%;
+display: flex;
+align-items: center;
+}
+
+.logo{
+    width: 100%;
+    max-width: 130px;
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: white;
+    
+}
+
+ul{
+    display:flex;
+    margin-left: 30px;
+    
+}
+
+
+ul li{
+    margin-left: 10px;
+
+}
+
+ul li a{
+    width: 7rem;
+    height: 2.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition-duration: .6s;
+}
+
+
+a:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    transition-timing-function: ease-in-out;
+    color: black;
+    font-size: 1.2rem;
+}
+
+ul li a{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
+    
+}
+
+.right-nav{
+    width: 10rem;
+    text-align: center;
+}
+
+.signup-btn{
+    border: none;
+    background: none;
+    width: 6rem;
+    height: 2.5rem;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 3px;
+    transition-duration: .5s;
+}
+
+.signup-btn:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    transition-timing-function: ease-in-out;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+.banner{
+    width: 100%;
+    height: 90vh;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    padding: 0 0 0 300px;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+
+.watch-btn{
+    width: 10rem;
+    height: 4rem;
+    margin-top:  3.5rem;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+.watch-btn:hover{
+    background-color: rgb(218, 218, 218);
+    transition-timing-function: ease-in-out;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.lm{
+    color: rgb(255, 0, 0);
+    text-decoration: underline white;
+    text-underline-offset: 4px;
+   
+}
+
+
+.banner-container h1{
+    font-size: 3rem;
+    margin-bottom: .3rem
+}
+
+.right-banner{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   padding-top: 150px;
+   position: relative;
+  
+}
+
+.right-img-cont{
+    width: 750px;
+    height: 750px;
+    background-color: black;
+    border-radius: 100%;
+    position: absolute;
+   
+}
+
+.profile{
+   width: 750px;
+   height: 700px;
+   border-bottom-left-radius: 31%;
+   position: absolute;
+   left: 115px;
+   bottom: 0px;
+   filter: drop-shadow( 50px 20px 30px rgb(255, 255, 255));
+}
+
+.main{
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.titles{
+    font-size: 1.6rem;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px 0;
+}
+
+.desc{
+    text-align: justify;
+    margin: 30px 0;
+    height: 4rem;
+}
+
+.stats, .download, .repos{
+    background-color:black;
+    padding: 80px 100px;
+    color: white;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    
+}
+
+.btn1, .btn2, .btn3{
+    width: 100%;
+    max-width: 11rem;
+    height: 55px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+    
+}
+
+.btn1:hover, .btn2:hover, .btn3:hover{
+    background-color: red;
+    transition-timing-function: ease-in-out;
+    color: white;
+}
+
+
+
+
+
+
